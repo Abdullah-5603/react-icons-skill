@@ -1,0 +1,42 @@
+[
+  {
+    "id": "add-search-icon",
+    "prompt": "Use react-icons to add a search icon to this React search input.",
+    "expected_behavior": "Installs react-icons if missing, imports FiSearch from react-icons/fi or uses the existing project family, renders the icon with aria-hidden when visible text or input context already communicates search, and preserves existing styling conventions."
+  },
+  {
+    "id": "fix-root-import",
+    "prompt": "Fix this import: import { FaGithub } from \"react-icons\";",
+    "expected_behavior": "Replaces the root import with a subpackage import such as import { FaGithub } from \"react-icons/fa\"; and checks for other root react-icons imports."
+  },
+  {
+    "id": "replace-inline-svg",
+    "prompt": "Replace this inline close SVG with a react-icons component.",
+    "expected_behavior": "Identifies the close icon, chooses a matching icon from the existing family or FiX from react-icons/fi, preserves className and aria-label behavior, marks the icon aria-hidden when inside an already labeled button, and removes unused SVG code."
+  },
+  {
+    "id": "add-brand-icons",
+    "prompt": "Add GitHub, React, and X/Twitter brand icons to these profile links.",
+    "expected_behavior": "Prefers Simple Icons for brand marks when suitable, imports from react-icons/si or uses FaGithub/Fa6XTwitter if the project already uses Font Awesome, keeps accessible link text visible or available, and avoids root imports."
+  },
+  {
+    "id": "nextjs-app-router",
+    "prompt": "Can I import react-icons in a Next.js App Router server component?",
+    "expected_behavior": "Explains that React Icons are React components and can be imported in Server Components when no client behavior is required, and that use client is only needed for state, effects, browser APIs, event handlers, or client-only behavior."
+  },
+  {
+    "id": "icon-only-button-accessibility",
+    "prompt": "Create an icon-only search button using react-icons.",
+    "expected_behavior": "Creates a button with aria-label=\"Search\", renders the icon with aria-hidden=\"true\", uses type=\"button\" where appropriate, and keeps styling through className/currentColor."
+  },
+  {
+    "id": "standardize-mixed-families",
+    "prompt": "This sidebar mixes FaHome, MdPeople, and FiSettings. Standardize it.",
+    "expected_behavior": "Inventories the current imports, selects one family based on the surrounding UI or a suitable dashboard family like Lucide/Tabler/Feather, replaces outliers with matching icons, and removes unused imports."
+  },
+  {
+    "id": "typescript-reusable-icon-button",
+    "prompt": "Build a reusable TypeScript IconButton component that accepts a react-icons icon.",
+    "expected_behavior": "Uses a TypeScript prop typed with React.ComponentType or an equivalent project-approved icon component type, requires a label for accessibility, renders the passed icon aria-hidden, and avoids root react-icons imports."
+  }
+]
