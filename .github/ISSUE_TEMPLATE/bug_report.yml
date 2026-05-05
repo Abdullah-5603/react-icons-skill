@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a problem with the skill instructions, references, evals, or install docs.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. This repository is for the unofficial Agent Skill, not the upstream React Icons package.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong or misleading?
+      placeholder: Describe the issue clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link or path to the affected file or section.
+      placeholder: skills/react-icons/SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the skill say or do instead?
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This report is about the Agent Skill repo, not official React Icons maintenance.
+          required: true

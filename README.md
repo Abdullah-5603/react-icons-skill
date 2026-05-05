@@ -35,6 +35,32 @@ npx skills add https://github.com/Abdullah-5603/react-icons-skill --skill react-
 - Writing TypeScript-friendly icon components and reusable icon button APIs.
 - Styling icons with `className`, SCSS, Tailwind, design-system classes, and `currentColor`.
 
+## Repository Contents
+
+- `skills/react-icons/SKILL.md`: the main Agent Skill instructions.
+- `skills/react-icons/references/`: focused reference docs for icon prefixes, accessibility, Next.js, and SVG migration.
+- `skills/react-icons/evals/evals.json`: eval prompts for checking expected agent behavior.
+
+## Contributing
+
+Contributions are welcome. Before opening a pull request, read [CONTRIBUTING.md](CONTRIBUTING.md), follow the [Code of Conduct](CODE_OF_CONDUCT.md), and keep changes focused on the Agent Skill itself.
+
+Useful contribution areas:
+
+- Better `react-icons` usage examples.
+- More framework-specific guidance for React, Next.js, Vite, CRA, JavaScript, and TypeScript.
+- Accessibility improvements.
+- Additional migration examples from inline SVGs.
+- Eval coverage for common agent mistakes.
+
+## Security
+
+This repository contains documentation and skill instructions, not runtime application code. Still, please report sensitive issues using the guidance in [SECURITY.md](SECURITY.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
 ## Unofficial
 
 This is an unofficial community Agent Skill. It is not affiliated with, endorsed by, or maintained by the official React Icons project.

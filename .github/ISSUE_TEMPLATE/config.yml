@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: React Icons upstream project
+    url: https://github.com/react-icons/react-icons
+    about: Use this for issues with the official React Icons package itself.
