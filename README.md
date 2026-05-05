@@ -24,6 +24,10 @@ npx skills add . --skill react-icons
 npx skills add https://github.com/Abdullah-5603/react-icons-skill --skill react-icons -g -a codex -y
 ```
 
+## Expected Skills.sh Page
+
+https://skills.sh/Abdullah-5603/react-icons-skill/react-icons
+
 ## What This Skill Helps With
 
 - Installing `react-icons` with the right package manager.

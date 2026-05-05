@@ -36,7 +36,7 @@ Use this skill when:
 - Use `aria-hidden="true"` for decorative icons.
 - Use `aria-label` or visible text for icon-only buttons.
 - Prefer `currentColor` and `className` for styling so icons inherit text color and design-system states.
-- Detect the package manager from the lockfile before installing: `pnpm-lock.yaml`, `yarn.lock`, `package-lock.json`, or `bun.lockb`.
+- Detect the package manager from lockfiles before installing: `package-lock.json` -> npm, `pnpm-lock.yaml` -> pnpm, `yarn.lock` -> yarn, `bun.lockb` or `bun.lock` -> bun.
 - Do not install `@react-icons/all-files` unless the user explicitly asks for that package.
 
 ## Install commands
